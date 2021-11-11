@@ -1,0 +1,3 @@
+.bg{
+    background-image: url("C:\Users\marco\OneDrive\Área de Trabalho\pq.png");
+}
