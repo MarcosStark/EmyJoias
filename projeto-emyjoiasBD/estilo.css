@@ -1,0 +1,259 @@
+/* ======================== layout ======================== */
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	background: url('imagens/capa.jpg'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 80px;
+	width: 80px;
+	display: block;
+	background: url('imagens/logo.jpeg') no-repeat;
+	background-size: contain;
+	color: transparent;
+	border-radius: 5px;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(8, 7, 6, 0.3);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: gold;
+	background: none;
+}
+
+.navbar-inverse .dropdown-menu>li>a {
+	color: white;
+	background: #ff9966;
+}
+
+.navbar-inverse .dropdown-menu>li>a:hover {
+	color: gold;
+	border-radius: 5px;
+}
+
+.navbar-nav>li>a {
+	color: white;
+	background: none;
+}
+
+.navbar-nav>li>a:hover {
+	color: gold;
+	background: none;
+}
+
+
+/* -- Imagens-- */
+.img {
+	box-shadow: 5px 5px 5px 2px white;
+	border-radius: 5px;
+	height: 350px;
+} 
+
+.img2 {
+	box-shadow: 5px 5px 5px 2px white;
+	border-radius: 5px;
+	height: 430px;
+}
+
+#format-img2{
+	padding: 30px 70px 20px 0px;
+}
+
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+
+.btn-sexo:hover {
+	background-color: gold;
+	color: white;
+}
+
+/* -- secao semijoias -- */
+
+.dropdown-menu{
+	background:#ff9966;
+}
+
+
+
+/* -- apresentacao -- */
+
+#apresentacao {
+	padding-top: 150px;
+}
+
+.img-carrosel{
+	width: 500px;
+	margin-left: 500px;
+	border-radius: 15px;
+}
+
+#cadastro{
+	width: 50%;
+	margin-left: 350px;
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+
+/* -- recursos -- */
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    padding-left: 80px;
+}
+
+/* -- conteúdo -- */
+
+.img-joias{
+	width: 300px;
+	height: 300px;
+	
+	border-radius: 15px;
+}
+
+/* -- rodape -- */
+footer {
+	background:#ff9966;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.item-rede-social{
+	padding: 25px 0px 0px 80px;
+}
+
+#rodape{
+	margin-top: 40px;
+	position: fixed;
+	width: 1550px;
+}
+
+/* ========================= Tipografia ======================== */
+h1 {
+	margin-top: 125px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+h1:hover{
+	background-color: gold;
+	color: white;
+}
+
+.p-sobre{
+	background: linear-gradient(#fa8c95,#fac7ad);
+	font-family: Singel Serif Font Family;
+	font-size: 25px;
+	border-radius: 15px;
+	color: #7c7246;
+	text-align: justify;
+}
+
+#p-sobre1{
+	padding: 10px;
+	margin-left: 60px;
+}
+
+#p-sobre2{
+	padding: 10px;
+	margin: 60px 90px 0px 0px;
+}
+
+.p-joias{
+	font-size: 16px;
+	text-align: left;
+	font-family: Singel Serif Font Family;
+	background: linear-gradient(#fa8c95,#fac7ad);
+	border-radius: 5px;
+	color: #7c7246;
+}
+
+.preco{
+	text-align: right;
+}
+
+tr, td{
+	padding: 0px 2px 0px 2px;
+}
+
+
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	h1 {
+	    font-size: 50px; 
+  	}
+  	.btn-custom {
+    	margin: 10px 15px;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+	    font-size: 70px; 
+  	}
+
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+	    font-size: 80px; 
+  	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+	    font-size: 100px; 
+  	}
+}
+/* Fim Media queries */
+
+
