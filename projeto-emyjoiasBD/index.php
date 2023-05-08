@@ -36,19 +36,19 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="prata.html">Prata</a></li>
+                        <li><a href="prata.php">Prata</a></li>
 
                         <li class="dropdown"> 
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 Semijoias<span class="caret"></span>
                             </a> 
                             <ul class="dropdown-menu">
-                                <li> <a href="feminino.html" class="btn-sexo">Feminino</a> </li>
-                                <li> <a href="masculino.html">Masculino</a> </li>
+                                <li> <a href="feminino.php" class="btn-sexo">Feminino</a> </li>
+                                <li> <a href="masculino.php">Masculino</a> </li>
                             </ul>
                         </li>
 
-                        <li><a href="folheados.html">Folheados</a></li>
+                        <li><a href="folheados.php">Folheados</a></li>
                         <li class="divisor" role="separator"></li>
 
                         <li><a href="inscrevase_emyjoias.php">Cadastrar-se</a></li>
@@ -127,7 +127,7 @@
 
         
         <!-- Rodape -->
-        <footer id="rodape">
+        <footer>
             <div class="container">
                 <div class="row">    
                     <div class="col-md-2">
@@ -140,7 +140,7 @@
                     <div class="col-md-2">
                         <h4>Fundadora</h4>
                         <ul class="nav">
-                            <li><a href="sobre.html">Sobre Emy</a></li>                
+                            <li><a href="sobre.php">Sobre Emy</a></li>                
                         </ul>
                     </div>
 
